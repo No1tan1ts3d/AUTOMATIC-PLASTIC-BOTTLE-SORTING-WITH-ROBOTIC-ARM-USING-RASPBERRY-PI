@@ -1,25 +1,29 @@
 # AUTOMATIC-PLASTIC-BOTTLE-SORTING-WITH-ROBOTIC-ARM-USING-RASPBERRY-PI
 
-This is our Final Year Project.
+# Final Year Project
 
+## Hardware Used
+- **Raspberry Pi Model 4B**
+- **Pi Camera Module v1.3**
+- **Arduino Mega**
+- **MG996r Servo Motor**
+- **3D Printed Parts** (using PLA Filament)
 
-The Hardwares used in this project:
-1. Raspberry Pi Model 4B
-2. Pi camera module v1.3
-3. Adruino Mega
-4. MG996r Servo Motor
-5. 3d Printed parts using PLA Filament
+---
 
-The links for purchasing the hardware:
-1. Raspberry Pi Model 4B
-a. https://www.daraz.com.np/products/raspberry-pi-4-model-b4gb-i104200195-s1025080284.html?
-b. https://himalayansolution.com/product/raspberry-pi-4-model-b-4-gb-ram
-4. Pi camera module v1.3
-a. https://www.daraz.com.np/products/raspberry-pi-camera-v1-i125433870-s1034038299.html?
-b. https://himalayansolution.com/product/raspberry-pi-camera-module-with-cable-5mp
-6. Adruino Mega
-a. https://www.daraz.com.np/products/arduino-mega-with-usb-cable-i111519-s716963.html?
-b. https://himalayansolution.com/product/arduino-mega-2560
-8. MG996r Servo Motor
-a. https://www.daraz.com.np/products/mg-996r-metal-gear-servo-motor-i124620064-s1033846480.html?
-b. https://himalayansolution.com/product/mg996r-servo-motor
+## Purchase Links for Hardware
+### Raspberry Pi Model 4B
+- [Daraz Link](https://www.daraz.com.np/products/raspberry-pi-4-model-b4gb-i104200195-s1025080284.html?)
+- [Himalayan Solution Link](https://himalayansolution.com/product/raspberry-pi-4-model-b-4-gb-ram)
+
+### Pi Camera Module v1.3
+- [Daraz Link](https://www.daraz.com.np/products/raspberry-pi-camera-v1-i125433870-s1034038299.html?)
+- [Himalayan Solution Link](https://himalayansolution.com/product/raspberry-pi-camera-module-with-cable-5mp)
+
+### Arduino Mega
+- [Daraz Link](https://www.daraz.com.np/products/arduino-mega-with-usb-cable-i111519-s716963.html?)
+- [Himalayan Solution Link](https://himalayansolution.com/product/arduino-mega-2560)
+
+### MG996r Servo Motor
+- [Daraz Link](https://www.daraz.com.np/products/mg-996r-metal-gear-servo-motor-i124620064-s1033846480.html?)
+- [Himalayan Solution Link](https://himalayansolution.com/product/mg996r-servo-motor)
