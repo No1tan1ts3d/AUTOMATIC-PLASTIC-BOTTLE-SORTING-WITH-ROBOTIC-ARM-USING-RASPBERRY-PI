@@ -4,9 +4,13 @@
 
 ## Hardware Used
 - **Raspberry Pi Model 4B**
+  ![Raspberry Pi Model 4B](photos/Raspberrypi.png "Raspberry Pi Model 4B")
 - **Pi Camera Module v1.3**
-- **Arduino Mega**
+  ![Pi Camera Module v1.3](photos/picamera.png "Pi Camera Module v1.3")
+- **Arduino Mega**Photos/Arduino Mega.png
+  ![Arduino Mega](photos/Arduinomega.jpg "Arduino Mega")
 - **MG996r Servo Motor**
+  ![MG996r Servo Motor](photos/Mg996r.png "MG996r Servo Motor")
 - **3D Printed Parts** (using PLA Filament)
 
 ---
