@@ -3,15 +3,15 @@
 # Final Year Project
 
 ## Hardware Used
-- **Raspberry Pi Model 4B**
+#### **Raspberry Pi Model 4B**
 - - ![Raspberry Pi Model 4B](Photos/Raspberrypi.png "Raspberry Pi Model 4B")
-- **Pi Camera Module v1.3**
+#### **Pi Camera Module v1.3**
 - - ![Pi Camera Module v1.3](Photos/picamera.png "Pi Camera Module v1.3")
-- **Arduino Mega**Photos/Arduino Mega.png
+#### **Arduino Mega**
 - - ![Arduino Mega](Photos/ArduinoMega.png "Arduino Mega")
-- **MG996r Servo Motor**
+#### **MG996r Servo Motor**
 - - ![MG996r Servo Motor](Photos/Mg996r.png "MG996r Servo Motor")
-- **3D Printed Parts** (using PLA Filament)
+#### **3D Printed Parts (using PLA Filament)** 
 
 
 ---
