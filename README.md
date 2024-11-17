@@ -13,6 +13,16 @@
 - - ![MG996r Servo Motor](Photos/Mg996r.png "MG996r Servo Motor")
 #### **3D Printed Parts (using PLA Filament)** 
 
+## Hardware Used format 2
+#### **Raspberry Pi Model 4B**
+- - ![](Photos/Raspberrypi.png "Raspberry Pi Model 4B")
+#### **Pi Camera Module v1.3**
+- - ![](Photos/picamera.png "Pi Camera Module v1.3")
+#### **Arduino Mega**
+- - ![](Photos/ArduinoMega.png "Arduino Mega")
+#### **MG996r Servo Motor**
+- - ![](Photos/Mg996r.png "MG996r Servo Motor")
+#### **3D Printed Parts (using PLA Filament)** 
 
 ---
 
