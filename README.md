@@ -36,4 +36,21 @@
 - [Daraz Link](https://www.daraz.com.np/products/mg-996r-metal-gear-servo-motor-i124620064-s1033846480.html?)
 - [Himalayan Solution Link](https://himalayansolution.com/product/mg996r-servo-motor)
 
-helo helo
+### Here is the detailed Step by step guide to complete this project.
+
+## Step 1 : Raspberry PI Initialization
+
+- For this step you need</p>
+1. Raspberry Pi<br>
+2. Sd Card<br>
+3. A Type-C cable / Type-C charger<br>
+4. Ethernet cable (optional)</p>
+There is two ways for Raspberry pi setup:<br>
+1. Wired<br>
+- For wired you'll need a micro HDMI cable to get the display directly from the board via micro HDMI port.<br>
+2. Headless Setup<br>
+- For Headless setup we use ssh to gain the acess to the board and configure it to install Remote Desktop Service (RDP).<br>
+- Then we get the visual screen via the Remote desktop Softwares like : Windows Remote desktop Connection / Real VNC Via IP Address.<br>
+- **Raspberry Pi OS** <br>
+- First download the Raspberry pi Imager Tool from : [https://www.raspberrypi.com/software/] <br>
+- 
