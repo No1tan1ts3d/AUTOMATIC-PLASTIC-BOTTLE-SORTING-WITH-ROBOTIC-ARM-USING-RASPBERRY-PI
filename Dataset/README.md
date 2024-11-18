@@ -16,13 +16,20 @@ The unaugmentated dataset can be [downloaded here.](https://app.roboflow.com/ds/
 ## This Dataset was collected thanks to contribution of following people.
 
 [Sushila Shrestha](https://www.linkedin.com/in/sushilashrestha/)
+
 [Nischal Baidar](https://www.linkedin.com/in/nischal-baidar-aa8943208/)
+
 [Abi Shrestha](https://www.linkedin.com/in/39abii/)
+
 [Arbin Thaku](https://www.linkedin.com/in/arbin-thaku-30930120b/)
+
 [Rajip Tuitui](https://www.linkedin.com/in/rajip-tuitui-399639284/)
+
 [Mukesh Prajapati](https://www.linkedin.com/in/mukeshpzpt/)
 []()
+
 [Subarna Poudel](https://www.linkedin.com/in/subarna-poudel-655a17216/)
+
 [Manjil Raut](https://www.linkedin.com/in/manjil-raut-5bba0628b/)
 []()
 []()
