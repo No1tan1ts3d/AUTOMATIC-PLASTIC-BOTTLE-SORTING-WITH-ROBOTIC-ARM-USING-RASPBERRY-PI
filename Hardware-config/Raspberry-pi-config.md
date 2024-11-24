@@ -38,7 +38,7 @@
 2. Once you’ve installed Imager, launch the application by clicking the Raspberry Pi Imager icon or running `rpi-imager`.
 
 <p align="center">
-<img src="Hardware-config\Hardware-Photos\Pi-imager-welcome-scr.png" alt="Pi-imager-welcome-scr"  width="400">
+<img src="Hardware-config/Hardware-Photos/Pi-imager-welcome-scr.png" alt="Pi-imager-welcome-scr"  width="400">
 </p>
 
 3. Click Choose device and select your Raspberry Pi model from the list.
@@ -85,7 +85,7 @@
   - Remote connectivity (e.g., enable SSH).
 
 <p align="center">
-<img src="Hardware-config\Hardware-Photos\os-customisation-general.png" alt="os-customisation-general.png"  width="400">
+<img src=".\Hardware-config\Hardware-Photos\os-customisation-general.png" alt="os-customisation-general.png"  width="400">
 </p>
 
 - If prompted, allow Imager to prefill Wi-Fi credentials from your current network or enter them manually.  
@@ -244,8 +244,6 @@ After logging in via SSH, follow these steps:
 - For VNC, ensure you have a VNC client installed on your computer to connect after enabling it.
 
 --- 
-
-Let me know if you'd like additional details!
 
 
 
