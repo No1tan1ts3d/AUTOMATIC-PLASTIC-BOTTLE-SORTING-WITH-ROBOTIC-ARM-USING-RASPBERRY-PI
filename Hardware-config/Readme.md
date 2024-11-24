@@ -2,7 +2,7 @@
 
 ### **Raspberry Pi Model 4B**
 <p align="center">
-<img src="Hardware-config/Hardware-Photos/Raspberrypi.png" alt="Raspberry Pi Model 4B" title="Raspberry Pi Model 4B" width="400">
+<img src="Hardware-Photos/Raspberrypi.png" alt="Raspberry Pi Model 4B" title="Raspberry Pi Model 4B" width="400">
 </p>
 
 ### **Pi Camera Module v1.3**
