@@ -38,19 +38,19 @@
 2. Once you’ve installed Imager, launch the application by clicking the Raspberry Pi Imager icon or running `rpi-imager`.
 
 <p align="center">
-<img src="Hardware-config/Hardware-Photos/Pi-imager-welcome-scr.png" alt="Pi-imager-welcome-scr"  width="400">
+<img src="Hardware-Photos/Pi-imager-welcome-scr.png" alt="Pi-imager-welcome-scr"  width="400">
 </p>
 
 3. Click Choose device and select your Raspberry Pi model from the list.
 
 <p align="center">
-<img src="Hardware-config/Hardware-Photos/choose-model.png" alt="choose-model.png"  width="400">
+<img src="Hardware-Photos/choose-model.png" alt="choose-model.png"  width="400">
 </p>
 
 3. Then, Click **Choose OS** and select an operating system to install. The Imager always shows the recommended version of Raspberry Pi OS for your model at the top of the list.
 
 <p align="center">
-<img src="Hardware-config/Hardware-Photos/choose-os.png" alt="choose-os.png"  width="400">
+<img src="Hardware-Photos/choose-os.png" alt="choose-os.png"  width="400">
 </p>
 
 #### For this project, we installed the latest **Raspberry Pi 64-bit Legacy Full**.
@@ -63,7 +63,7 @@
 4. Connect your preferred storage device (e.g., microSD card) to your computer using an external or built-in SD card reader. Then click **Choose Storage** and select your storage device.
 
 <p align="center">
-<img src="Hardware-config/Hardware-Photos/choose-storage.png" alt="choose-storage.png"  width="400">
+<img src="Hardware-Photos/choose-storage.png" alt="choose-storage.png"  width="400">
 </p>
 
 #### Warning:
@@ -73,7 +73,7 @@
    - If skipped, the configuration wizard will prompt you during the first boot.
 
 <p align="center">
-<img src="Hardware-config/Hardware-Photos/os-customisation-prompt.png" alt="os-customisation-prompt.png"  width="400">
+<img src="Hardware-Photos/os-customisation-prompt.png" alt="os-customisation-prompt.png"  width="400">
 </p>
 
 #### OS Customization Options:
@@ -85,7 +85,7 @@
   - Remote connectivity (e.g., enable SSH).
 
 <p align="center">
-<img src="./Hardware-config/Hardware-Photos/os-customisation-general.png" alt="os-customisation-general.png"  width="400">
+<img src="./Hardware-Photos/os-customisation-general.png" alt="os-customisation-general.png"  width="400">
 </p>
 
 - If prompted, allow Imager to prefill Wi-Fi credentials from your current network or enter them manually.  
@@ -93,7 +93,7 @@
   Go to the Services tab then:
 
 <p align="center">
-<img src="Hardware-config/Hardware-Photos/os-customisation-services.png" alt="os-customisation-services.png"  width="400">
+<img src="Hardware-Photos/os-customisation-services.png" alt="os-customisation-services.png"  width="400">
 </p>
 
   - **Enable SSH**: Must be enabled for headless setup. Use password authentication to prevent unauthorized access.
@@ -102,13 +102,13 @@
 6. After completing the customization, click **Save**, then **Yes** to apply the settings.
 
 <p align="center">
-<img src="Hardware-config/Hardware-Photos/are-you-sure.png" alt="are-you-sure.png"  width="400">
+<img src="Hardware-Photos/are-you-sure.png" alt="are-you-sure.png"  width="400">
 </p>
 
 7. Click **Write** to begin writing the image to the storage device. Confirm any permissions or admin prompts. The process may take a few minutes. Then, You will see he following prompt in he imager:
 
 <p align="center">
-<img src="Hardware-config/Hardware-Photos/finished.png" alt="finished.png"  width="400">
+<img src="Hardware-Photos/finished.png" alt="finished.png"  width="400">
 </p>
 
 8. Once completed, insert the SD card into your Raspberry Pi, connect the power cable, and wait a few seconds.
