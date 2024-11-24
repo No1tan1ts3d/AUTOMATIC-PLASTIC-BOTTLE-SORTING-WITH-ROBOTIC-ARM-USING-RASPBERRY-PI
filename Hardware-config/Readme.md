@@ -17,7 +17,7 @@
 
 ### **MG996r Servo Motor**
 <p align="center">
-<img src="Hardware-Photos/Mg996r.png alt="MG996r Servo Motor" title="MG996r Servo Motor - 180 degree" width="400">
+<img src="Hardware-Photos/Mg996r.png" alt="MG996r Servo Motor" title="MG996r Servo Motor - 180 degree" width="400">
 </p>
 
 ### **3D Printed Parts (using PLA Filament)**

@@ -38,19 +38,19 @@
 2. Once you’ve installed Imager, launch the application by clicking the Raspberry Pi Imager icon or running `rpi-imager`.
 
 <p align="center">
-<img src="Hardware-Photos/Pi-imager-welcome-scr.png" alt="Pi-imager-welcome-scr"  width="400">
+<img src="Hardware-Photos/Pi-imager-welcome-scr.png" alt="Pi-imager-welcome-scr"  width="1000">
 </p>
 
 3. Click Choose device and select your Raspberry Pi model from the list.
 
 <p align="center">
-<img src="Hardware-Photos/choose-model.png" alt="choose-model.png"  width="400">
+<img src="Hardware-Photos/choose-model.png" alt="choose-model.png"  width="1000">
 </p>
 
 3. Then, Click **Choose OS** and select an operating system to install. The Imager always shows the recommended version of Raspberry Pi OS for your model at the top of the list.
 
 <p align="center">
-<img src="Hardware-Photos/choose-os.png" alt="choose-os.png"  width="400">
+<img src="Hardware-Photos/choose-os.png" alt="choose-os.png"  width="1000">
 </p>
 
 #### For this project, we installed the latest **Raspberry Pi 64-bit Legacy Full**.
@@ -63,7 +63,7 @@
 4. Connect your preferred storage device (e.g., microSD card) to your computer using an external or built-in SD card reader. Then click **Choose Storage** and select your storage device.
 
 <p align="center">
-<img src="Hardware-Photos/choose-storage.png" alt="choose-storage.png"  width="400">
+<img src="Hardware-Photos/choose-storage.png" alt="choose-storage.png"  width="1000">
 </p>
 
 #### Warning:
@@ -73,7 +73,7 @@
    - If skipped, the configuration wizard will prompt you during the first boot.
 
 <p align="center">
-<img src="Hardware-Photos/os-customisation-prompt.png" alt="os-customisation-prompt.png"  width="400">
+<img src="Hardware-Photos/os-customisation-prompt.png" alt="os-customisation-prompt.png"  width="1000">
 </p>
 
 #### OS Customization Options:
@@ -85,7 +85,7 @@
   - Remote connectivity (e.g., enable SSH).
 
 <p align="center">
-<img src="./Hardware-Photos/os-customisation-general.png" alt="os-customisation-general.png"  width="400">
+<img src="./Hardware-Photos/os-customisation-general.png" alt="os-customisation-general.png"  width="1000">
 </p>
 
 - If prompted, allow Imager to prefill Wi-Fi credentials from your current network or enter them manually.  
@@ -93,7 +93,7 @@
   Go to the Services tab then:
 
 <p align="center">
-<img src="Hardware-Photos/os-customisation-services.png" alt="os-customisation-services.png"  width="400">
+<img src="Hardware-Photos/os-customisation-services.png" alt="os-customisation-services.png"  width="1000">
 </p>
 
   - **Enable SSH**: Must be enabled for headless setup. Use password authentication to prevent unauthorized access.
@@ -102,13 +102,13 @@
 6. After completing the customization, click **Save**, then **Yes** to apply the settings.
 
 <p align="center">
-<img src="Hardware-Photos/are-you-sure.png" alt="are-you-sure.png"  width="400">
+<img src="Hardware-Photos/are-you-sure.png" alt="are-you-sure.png"  width="1000">
 </p>
 
 7. Click **Write** to begin writing the image to the storage device. Confirm any permissions or admin prompts. The process may take a few minutes. Then, You will see he following prompt in he imager:
 
 <p align="center">
-<img src="Hardware-Photos/finished.png" alt="finished.png"  width="400">
+<img src="Hardware-Photos/finished.png" alt="finished.png"  width="1000">
 </p>
 
 8. Once completed, insert the SD card into your Raspberry Pi, connect the power cable, and wait a few seconds.
@@ -245,6 +245,80 @@ After logging in via SSH, follow these steps:
 
 --- 
 
+## **3. Connect to Raspberry Pi and View Desktop on Windows**
 
+After enabling VNC on your Raspberry Pi, you can view its desktop remotely on a Windows machine using one of the following methods:
 
+  **Before proceeding ensure the VNC Server is Running**:  
+   - To ensure the VNC server is active, run the following commands on the Raspberry Pi via ssh terminal:  
+     ```bash
+     sudo systemctl start vncserver-x11-serviced   # Starts VNC Server immediately
+     sudo systemctl enable vncserver-x11-serviced # Enables VNC Server to start on boot
+     ```
+---
+
+### **Method 1: Connect via Windows Remote Desktop**
+
+2. **Open Remote Desktop on Windows**:  
+   - In the Windows search bar, type **Remote Desktop Connection** and press **Enter** to open the application.
+
+3. **Enter Raspberry Pi Details**:  
+   - In the **Computer** field, enter:  
+     - The IP address of the Raspberry Pi (e.g., `192.168.x.x`)  
+     - Or `raspberrypi.local` if both devices are on the same network.  
+   - Click **Show Options**, and enter the Raspberry Pi's **username** and **password** under the **User name** and **Password** fields.  
+   - Save the credentials to avoid re-entering them for future logins.
+
+4. **Log In**:  
+   - Click **Connect**. You may encounter a warning about the certificate; click **Yes** to proceed.  
+   - Enter your credentials again if prompted, and you’ll be logged into the Raspberry Pi desktop.
+
+<p align="center">
+  <img src="Hardware-config/Hardware-Photos/vnc-tigervnc-desktop.png" alt="VNC Desktop" width="1000">
+</p>
+
+---
+
+### **Method 2: Connect via VNC Viewer**
+
+1. **Download and Install a VNC Viewer**:  
+   - Choose one of the following VNC viewers:  
+     - **RealVNC**: [Download here](https://www.realvnc.com/en/connect/download/viewer/).  
+     - **TigerVNC**: [Download here](https://tigervnc.org/).  
+
+     For mobile devices, you can also download [RealVNC](https://www.realvnc.com/en/connect/download/viewer/android/)  for Android or iOS.
+
+2. **Launch the VNC Viewer**:  
+   - Open the installed VNC viewer application.  
+
+3. **Enter Raspberry Pi Details**:  
+   - In the VNC viewer's address bar, enter:  
+     - The Raspberry Pi’s IP address (e.g., `192.168.x.x`).  
+     - Or `raspberrypi.local` if both devices are on the same network.
+
+4. **Authenticate**:  
+   - When prompted, enter the **username** and **password** of the Raspberry Pi.  
+
+5. **View the Desktop**:  
+   - Once authenticated, the Raspberry Pi desktop will appear on your Windows machine.
+
+<p align="center">
+  <img src="Hardware-config/Hardware-Photos/VNC_Viewer_on_Windows.png" alt="VNC Viewer Desktop" width="1000">
+</p>
+
+---
+
+### **Which Method Should You Use?**
+
+- **Windows Remote Desktop**:  
+  Recommended for users who want smoother performance and better clipboard and file-sharing capabilities.  
+
+- **VNC Viewer**:  
+  Offers more flexibility and works across multiple platforms (Windows, macOS, Linux, and mobile devices).  
+
+If you encounter clipboard or file transfer issues with a VNC viewer, switching to Windows Remote Desktop is recommended.
+
+---
+
+With either of these methods, you can wirelessly access and control your Raspberry Pi desktop from your Windows machine. Once configured, proceed to the **Raspberry Pi Peripherals** section to continue.
 
