@@ -25,16 +25,16 @@
   - Ensure strong connections during setup and carefully follow all steps to minimize errors.
 
   #### For this project we configured Raspberry pi as Headless Installation.
-  ### Method 2. Headless Setup:
+    ### Method 2. Headless Setup:
   ### Installing Raspberry Pi OS:
-    #### Step 1. Download the **Raspberry Pi Imager Tool** from the official website:  
-      - **For Windows**:  
-        [Raspberry Pi OS using Raspberry Pi Imager](https://www.raspberrypi.com/software/)  
-      - **For Linux**:  
-        Open a terminal window and type:  
-        ```bash
-        sudo apt install rpi-imager
-        ```
+  #### Step 1. Download the **Raspberry Pi Imager Tool** from the official website:  
+    - **For Windows**:  
+      [Raspberry Pi OS using Raspberry Pi Imager](https://www.raspberrypi.com/software/)  
+    - **For Linux**:  
+      Open a terminal window and type:  
+      ```bash
+      sudo apt install rpi-imager
+      ```
     #### Step 2. Once you’ve installed Imager, launch the application by clicking the Raspberry Pi Imager icon or running `rpi-imager`.
     <p align="center">
     <img src="Hardware-Photos/Pi-imager-welcome-scr.png" alt="Pi-imager-welcome-scr"  width="1000">
@@ -183,7 +183,7 @@
 
   #### Step 4: **Host Key Verification**:  
   - When connecting for the first time, you’ll see a prompt like this:  
-   ```
+    ```bash
     The authenticity of host '[example.com] (93.184.216.34)' can't be established.
     ECDSA key fingerprint is SHA256:d029f87e3d80f8fd9b1be67c7426b4cc1ff47b4a9d0a84.
     Are you sure you want to continue connecting (yes/no)?
