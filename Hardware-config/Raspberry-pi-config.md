@@ -23,7 +23,8 @@
 - Avoid flashing the SD card multiple times or interrupting the flashing process. This could corrupt or permanently damage the card.  
 - Ensure strong connections during setup and carefully follow all steps to minimize errors.
 
-#### For this project we configured Raspberry pi as Headless Installation.
+**For this project we configured Raspberry pi as Headless Installation.**
+
 ### Method 2. Headless Setup:
 ### Installing Raspberry Pi OS:
 #### Step 1. Download the **Raspberry Pi Imager Tool** from the official website:  
@@ -211,7 +212,7 @@ Run the following command:
 sudo raspi-config
 ```
   <p align="center">
-  <img src="Hardware-config/Hardware-Photos/pi-config-interface.png" alt="pi-config-interface"  width="1000">
+  <img src="Hardware-Photos/pi-config-interface.png" alt="pi-config-interface"  width="1000">
   </p>
 
 #### Step :. **Access Interface Options**:  
@@ -298,7 +299,7 @@ sudo systemctl enable vncserver-x11-serviced # Enables VNC Server to start on bo
 
   - For mobile devices, you can also download [RealVNC](https://www.realvnc.com/en/connect/download/viewer/android/)  for Android or iOS.
 
-  From the above one RealVNC is suggested due to its easier and convinient UI and functionality.
+  From the above one RealVNC is suggested due to its easy with convinient UI and functionality.
 
 #### Step 2. **Launch the VNC Viewer**:  
 - Open the installed VNC viewer application.  
@@ -309,7 +310,7 @@ sudo systemctl enable vncserver-x11-serviced # Enables VNC Server to start on bo
   - Or `raspberrypi.local` if both devices are on the same network.
 
 #### Step 4. **Authenticate**:  
-- When prompted, enter the **username** and **password** of the Raspberry Pi.  
+- When prompted, enter the **username** and **password** of the Raspberry Pi. 
 
 #### Step 5. **View the Desktop**:  
 - Once authenticated, the Raspberry Pi desktop will appear on your Windows machine.
@@ -321,5 +322,4 @@ sudo systemctl enable vncserver-x11-serviced # Enables VNC Server to start on bo
    ---
 
 ## ¡Felicitaciones! You’ve successfully setup your Headless Raspberry Pi! 🎉
-  With either of these above methods, you can wirelessly access and control your Raspberry Pi desktop from your Windows machine. Once configured, proceed to the **Raspberry Pi Peripherals** section to continue.
-
+  With either of these above methods, you can wirelessly access and control your Raspberry Pi desktop from your Windows machine. Once configured, proceed to the [**Raspberry Pi Peripherals**](Peripherals-config.md) section to continue.
